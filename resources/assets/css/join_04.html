@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>픽클릭</title>
+
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header_wrap">
+            <header class="header">
+                <div class="header_logo">
+                    <img src="img/logo.png" alt="PICLICK">
+                </div>
+                <ul class="header_menu">
+                    <li>
+                        <a href="#">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#">회원가입</a>
+                    </li>
+                    <li class="menu_list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenulist"
+                        aria-controls="offcanvasMenulist"></li>
+                </ul>
+                <ul class="navbar">
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="navbardropdownMenu1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTS<i class="i_arrow_down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="navbardropdownMenu1">
+                                <li><a class="dropdown-item" href="#">AI IMAGE SEARCH AD</a></li>
+                                <li><a class="dropdown-item" href="#">AI IN STORE SOLUTION</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">PRICING</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="navbardropdownMenu2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                COMPANY
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="navbardropdownMenu2">
+                                <li><a class="dropdown-item" href="#">AI IMAGE SEARCH AD</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header_btn">
+                    <button type="button">로그인</button>
+                    <button type="button">회원가입</button>
+                </div>
+            </header>
+            <div class="progress pc_none">
+                <div class="progress-bar" style="width: 90%;" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start header_offcanvas" tabindex="-1" id="offcanvasMenulist"
+            aria-labelledby="offcanvasMenulistLabel">
+            <div class="offcanvas-header">
+                <i class="i_close" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="#">PRICING</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="#">COMPANY</a>
+                    </li>
+                    <div class="hr">
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="content">
+            <div class="content_wrap type2">
+                <h1 class="join_title m_none">광고주 회원가입</h1>
+                <div class="join_wrap type2">
+                    <div class="join_progress m_none">
+                        <ul>
+                            <li class="active">1</li>
+                            <li>2</li>
+                        </ul>
+                    </div>
+                    <div class="join">
+                        <div class="join_area">
+                            <div class="line_box">
+                                <div class="hr"></div>
+                                <div class="hr_title">담당자 정보 입력</div>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="input_wrap mt-4">
+                                <h6>담당자 이메일</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="이메일 입력" />
+                                    <button type="button" class="btn btn_dark">인증번호</button>
+                                </div>
+                                <p class="input_desc">*인증 메일이 오지 않을 경우 스팸메일함도 확인해주세요.<br>*회원님의 개인 정보 및 픽클릭 모든 정보 수신으로
+                                    사용됩니다.</p>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>인증번호</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="인증번호 입력" />
+                                    <button type="button" class="btn btn_dark">인증요청</button>
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>담당자 이름</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="담당자 이름 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>담당자 이름</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="‘-’ 없이 숫자만 입력하세요." />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="join_area">
+                            <div class="line_box">
+                                <div class="hr"></div>
+                                <div class="hr_title">광고주 정보 입력</div>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>회사명</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="회사명 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>사업자등록번호</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="‘-’ 없이 숫자만 입력하세요." />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>아이디</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="영문과 숫자만 입력하세요" />
+                                    <button type="button" class="btn btn_dark">중복확인</button>
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>비밀번호</h6>
+                                <div class="input_group">
+                                    <input type="password" placeholder="비밀번호 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>비밀번호 확인</h6>
+                                <div class="input_group">
+                                    <input type="password" placeholder="비밀번호 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>대표URL</h6>
+                                <div class="input_group">
+                                    <input type="password" placeholder="http://" />
+                                </div>
+                                <p class="input_desc">개인 홈페이지 또는 소셜미디어 계정의 URL을 입력해 주세요. 광고주 승인을 위한 자료로 활용됩니다.<br>없으신 경우
+                                    global@piclick.me 로 간단한 자기소개와 포트폴리오를 보내주시기 바랍니다.</p>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>수신동의</h6>
+                                <div class="check_wrap">
+                                    <div class="check_group">
+                                        <input type="checkbox" id="check01">
+                                        <label for="check01">이메일 수신</label>
+                                    </div>
+                                    <div class="check_group">
+                                        <input type="checkbox" id="check02">
+                                        <label for="check02">SMS 수신</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>카카오 알림톡 수신동의</h6>
+                                <div class="check_wrap">
+                                    <div class="check_group">
+                                        <input type="checkbox" id="check04">
+                                        <label for="check04">동의</label>
+                                    </div>
+                                    <div class="check_group">
+                                        <input type="checkbox" id="check05">
+                                        <label for="check05">비동의</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="join_area a_none">
+                            <div class="line_box">
+                                <div class="hr"></div>
+                                <div class="hr_title">세금계산서 정보 입력</div>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>대표자명</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="대표자명 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>사업장 소재지</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="우편번호 입력" />
+                                    <button type="button" class="btn btn_dark">우편번호</button>
+                                </div>
+                                <div class="input_group mt-1">
+                                    <input type="text" placeholder="주소 입력" />
+                                </div>
+                                <div class="input_group mt-1">
+                                    <input type="text" placeholder="상세주소 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>업태</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="업태 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>업종</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="업종 입력" />
+                                </div>
+                            </div>
+                            <div class="input_wrap">
+                                <h6>세금계산서 이메일</h6>
+                                <div class="input_group">
+                                    <input type="text" placeholder="이메일을 입력해주세요" />
+                                </div>
+                            </div>
+                            <div class="check_group">
+                                <input type="checkbox" id="check03">
+                                <label for="check03">위 담당자 메일과 동일</label>
+                            </div>
+                        </div>
+                        <div class="btn_group type3">
+                            <button type="button" class="btn btn_outline_secondary">이전</button>
+                            <button type="button" class="btn btn_primary" data-bs-toggle="modal"
+                                data-bs-target="#joinModal"><b>회원가입 요청</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer_wrap">
+            <footer class="footer">
+                <div class="footer_top">
+                    <div class="footer_logo">
+                        <img src="img/logo_w.png" alt="PICLICK">
+                    </div>
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCTS</a>
+                        </li>
+                        <li>
+                            <a href="#">PRICING</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="#">COMPANY</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_terms">
+                        <li>
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="#">이용약관</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_info">
+                        <h1>피에스알미디어</h1>
+                        <ul>
+                            <li>서울특별시 강남구 선릉로 578 태정빌딩 6층</li>
+                            <li>대표: 박세련</li>
+                            <li>사업자 등록 번호 : 264-81-19591</li>
+                            <li>통신판매업신고번호 : 서울강남 01172호</li>
+                        </ul>
+
+                        <p class="footer_copy m_none">Copyright © 2023 PSR Media Inc. All Rights Reserved</p>
+                    </div>
+                    <div class="footer_info">
+                        <h1>CONTACTS</h1>
+                        <ul>
+                            <li>대표전화 : 82-2-6925-2108</li>
+                            <li>사업제휴문의 : global@piclick.me</li>
+                        </ul>
+                        <div class="btn_group">
+                            <button type="button">Company Introduction</button>
+                            <button type="button">Careers</button>
+                        </div>
+                    </div>
+                    <p class="footer_copy pc_none">Copyright © 2023 PSR Media Inc. All Rights Reserved</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="libs/swiper.min.js"></script>
+    <script src="libs/bootstrap.bundle.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

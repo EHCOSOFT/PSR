@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>픽클릭</title>
+
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header_wrap" id="header"></div>
+
+        <div class="offcanvas offcanvas-start header_offcanvas" tabindex="-1" id="offcanvasMenulist"
+            aria-labelledby="offcanvasMenulistLabel"></div>
+
+
+
+        <div class="content">
+            <div class="pricing_wrap">
+                <div class="pricing_top">
+                    <div class="pricing_title">
+                        <p>HOME / PRICING</p>
+                        <h1>PRICING TABLE</h1>
+                    </div>
+                </div>
+                <div class="pricing_body">
+                    <div class="mobile">
+                        <ul class="nav nav-pills mt-10" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-advertisement-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-advertisement" type="button" role="tab"
+                                    aria-controls="pills-advertisement" aria-selected="true">AI Advertisement</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-solution-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-solution" type="button" role="tab"
+                                    aria-controls="pills-solution" aria-selected="false">
+                                    AI In-Store Solution</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-advertisement" role="tabpanel">
+                                <div class="top_box">
+                                    <p>*AI 광고 최소 집행 금액 월 3,000,000원</p>
+                                </div>
+                                <div class="pricing_text">
+                                    <dl>
+                                        <dt>1. AI 상품 매칭</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>매체 본문 사진 상단 왼쪽 (이미지 내 상품 매칭)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>쇼핑몰 (의류, 잡화, 주얼리, 리빙 등)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>CPC</p>
+                                                </li>
+                                                <li>
+                                                    <h4>평균 ROAS</h4>
+                                                    <p>1,200%</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>2. AI 씬(Scene) 매칭</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>매체 본문 사진 상단 왼쪽<br>
+                                                        (이미지 내 행동/배경 분석을 통한 문맥 타케팅)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>전분야 (금융, 교육, 여행, 푸드, 육아, 뷰티 등)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>CPC</p>
+                                                </li>
+                                                <li>
+                                                    <h4>평균 ROAS</h4>
+                                                    <p>1,100%</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>3. 구매예측 쇼핑박스</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>배너 일반 영역 전체 해당</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>쇼핑몰 (의류, 잡화, 주얼리, 리빙 등)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>CPC</p>
+                                                </li>
+                                                <li>
+                                                    <h4>평균 ROAS</h4>
+                                                    <p>1,100%</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>4. 지능형 리타게팅</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>배너 일반 영역 전체 해당</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>전분야 (금융, 교육, 여행, 푸드, 육아, 뷰티 등)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>CPC</p>
+                                                </li>
+                                                <li>
+                                                    <h4>평균 ROAS</h4>
+                                                    <p>800%</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>5. 오디언스 타게팅</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>배너 일반 영역 전체 해당</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>전분야 (금융, 교육, 여행, 푸드, 육아, 뷰티 등)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>CPC</p>
+                                                </li>
+                                                <li>
+                                                    <h4>평균 ROAS</h4>
+                                                    <p>500%</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="pills-solution" role="tabpanel">
+                                <div class="pricing_text">
+                                    <dl>
+                                        <dt>1. 유사 상품 추천 솔루션</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>제품 상세 페이지</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>오픈마켓, 쇼핑몰, 브랜드 몰<br>
+                                                        (판매중인 상품수 1,000개 이상)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>월 사용료, 연계약</p>
+                                                </li>
+                                                <li>
+                                                    <h4>최소단가(원)</h4>
+                                                    <p>500,000~ /월</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>2. 반품 교환 추천 솔루션</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>마이페이지 > 반품하기</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>오픈마켓, 쇼핑몰, 브랜드 몰<br>
+                                                        (반품률이 12% 이상인 경우)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>월 사용료, 연계약</p>
+                                                </li>
+                                                <li>
+                                                    <h4>최소단가(원)</h4>
+                                                    <p>500,000~ /월</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>3. 품절 대체 추천 솔루션</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>문자 메시지</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>오픈마켓, 쇼핑몰, 브랜드 몰<br>
+                                                        (고객 주문 후 사입하는 몰 품절률이 높은 경우)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>월 사용료, 연계약</p>
+                                                </li>
+                                                <li>
+                                                    <h4>최소단가(원)</h4>
+                                                    <p>500,000~ /월</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>4. 코디 자동화 솔루션</dt>
+                                        <dd>
+                                            <ul>
+                                                <li>
+                                                    <h4>게재 위치 및 유형</h4>
+                                                    <p>제품 상세 페이지 결제 버튼 상단</p>
+                                                </li>
+                                                <li>
+                                                    <h4>고객사 구분</h4>
+                                                    <p>쇼핑몰, 브랜드 몰<br>
+                                                        (자사 상품으로만 코디해서 촬영하는 경우)</p>
+                                                </li>
+                                                <li>
+                                                    <h4>과금방식</h4>
+                                                    <p>월 사용료, 연계약</p>
+                                                </li>
+                                                <li>
+                                                    <h4>최소단가(원)</h4>
+                                                    <p>500,000~ /월</p>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pc">
+                        <div class="table_wrap">
+                            <h1 class="title">AI Advertisement</h1>
+                            <table class="table_one">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"><b>광고 타입</b></th>
+                                        <th>게재 위치 및 유형</th>
+                                        <th colspan="2">고객사 구분</th>
+                                        <th>과금방식</th>
+                                        <th>평균 ROAS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2" class="bg_gray"><b>PICLICK_Edge</b></td>
+                                        <td class="br_1"><b>AI 상품 매칭</b></td>
+                                        <td>매체 본문 사진 상단 왼쪽<br>
+                                            (이미지 내 상품 매칭)</td>
+                                        <td>쇼핑몰</td>
+                                        <td>의류, 잡화, 쥬얼리, 리빙 등</td>
+                                        <td>CPC</td>
+                                        <td>1,200%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="br_1"><b>AI 씬(Scene) 매칭</b></td>
+                                        <td>매체 본문 사진 상단 왼쪽<br>
+                                            (이미지 내 행동/배경 분석을 통한 문맥 타케팅)</td>
+                                        <td>전분야</td>
+                                        <td>금융, 교육, 여행, 푸드, 육아, 뷰티 등</td>
+                                        <td>CPC</td>
+                                        <td>1,100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3" class="bg_gray"><b>DSP</b></td>
+                                        <td class="br_1"><b>구매예측 쇼핑박스</b></td>
+                                        <td>배너 일반 영역 전체 해당</td>
+                                        <td>쇼핑몰</td>
+                                        <td>의류, 잡화, 쥬얼리, 리빙 등</td>
+                                        <td>CPC</td>
+                                        <td>1,100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="br_1"><b>지능형 리타게팅</b></td>
+                                        <td>배너 일반 영역 전체 해당</td>
+                                        <td>전분야</td>
+                                        <td>금융, 교육, 여행, 푸드, 육아, 뷰티 등</td>
+                                        <td>CPC</td>
+                                        <td>600%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="br_1"><b>오디언스 타게팅</b></td>
+                                        <td>배너 일반 영역 전체 해당</td>
+                                        <td>전분야</td>
+                                        <td>금융, 교육, 여행, 푸드, 육아, 뷰티 등</td>
+                                        <td>CPC</td>
+                                        <td>500%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="desc">*AI 광고 최소 집행 금액 월 3,000,000원</p>
+                            <h1 class="title">AI In-Store Solution</h1>
+                            <table class="table_two">
+                                <thead>
+                                    <tr>
+                                        <th><b>서비스명</b></th>
+                                        <th>게재 위치 및 유형</th>
+                                        <th colspan="2">고객사 구분</th>
+                                        <th>과금방식</th>
+                                        <th>최소 단가(원)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>유사 상품 추천 솔루션</b></td>
+                                        <td>제품 상세 페이지</td>
+                                        <td>오픈마켓<br>쇼핑몰, 브랜드 몰</td>
+                                        <td>판매중인 상품수 1,000개 이상</td>
+                                        <td>월 사용료<br>연계약</td>
+                                        <td>500,000~  /월</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>반품 교환 추천 솔루션</b></td>
+                                        <td>마이페이지 > 반품하기</td>
+                                        <td>오픈마켓<br>쇼핑몰, 브랜드 몰</td>
+                                        <td>반품률이 12% 이상인 경우</td>
+                                        <td>월 사용료<br>연계약</td>
+                                        <td>500,000~  /월</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>품절 대체 추천 솔루션</b></td>
+                                        <td>카카오, 문자 메시지</td>
+                                        <td>오픈마켓<br>쇼핑몰, 브랜드 몰</td>
+                                        <td>고객의 결제 후 사입하는 스토어<br>
+                                            품절률이 높은 경우</td>
+                                        <td>월 사용료<br>연계약</td>
+                                        <td>500,000~  /월</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>코디 자동화 솔루션</b></td>
+                                        <td>제품 상세 페이지<br>
+                                            결제버튼 상단</td>
+                                        <td>오픈마켓<br>쇼핑몰, 브랜드 몰</td>
+                                        <td>자사 상품으로만 코디해서 촬영하는 경우</td>
+                                        <td>월 사용료<br>연계약</td>
+                                        <td>500,000~  /월</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_wrap" id="footer"></div>
+    </div>
+
+    <div class="quick" id="quick"></div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="inquiryModal" tabindex="-1" aria-labelledby="inquiryModal" aria-hidden="true"></div>
+
+    <script src="libs/lottie-player.js"></script>
+    <script src="libs/swiper.min.js"></script>
+    <script src="libs/bootstrap.bundle.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
